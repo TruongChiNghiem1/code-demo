@@ -231,6 +231,9 @@ section{
     .padding5{
         padding-top: 0px;
     }
+    .width2-100{
+        top: 38%;
+    }
 }
 @media only screen and (max-width: 480px){
     .d-flex1{
