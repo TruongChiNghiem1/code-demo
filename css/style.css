@@ -1,0 +1,273 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    font-size: 3.4rem;
+    color:#a48352;
+    z-index: 10;
+    margin-bottom: 0px !important;
+    
+}
+p{
+    font-size: 1.5rem;
+    margin-bottom: 0rem;
+}
+li{
+    font-size: 1.5rem;
+    list-style-type: disc;
+    color: #a48352
+}
+section{
+    background-color: #f0efe8 !important;
+}
+
+.bg-triangle{
+    width: 0;
+    height: 0;
+    border-left: 45vw solid transparent;
+    border-top: 85vh solid #1f2021;
+    z-index: 1;
+}
+/* width */
+.width-50{
+    width: 50%;
+}
+.width-80{
+    width: 80%;
+}
+.width-90{
+    width: 90%;
+}
+.width-95{
+    width: 95%;
+}
+.width-100{
+    width: 100%;
+}
+.width2-100{
+    width: 48%;
+    position: absolute;
+    top: 35%;
+    z-index: 10000000;
+}
+.width-110{
+    width: 110%;
+}
+.width-50px{
+    width: 50px;
+}
+.width-250px{
+    width: 250px;
+}
+.width-500px{
+    width: 500px;
+}
+.width-550px{
+    width: 550px;
+}
+.width-570px{
+    width: 570px;
+}
+.width-600px{
+    width: 600px;
+}
+.width-1200px{
+    width: 1200px;
+}
+.width-650px{
+    width: 650px;
+}
+
+.height-10px{
+    height: 10px;
+}
+.height-500px{
+    height: 1000px;
+}
+
+.right{
+    position: absolute;
+    right: 0vw;
+    top: 0vh;
+}
+.padding1{
+    padding-top: 0vh;
+}
+.padding1-2{
+    padding-top: 18px;
+    padding-left: 20px;
+}
+.padding3{
+    padding-bottom: 30px;
+}
+.padding4{
+    padding-bottom: 5px;
+}
+.padding5{
+    padding-top: 20px;
+}
+.padding6{
+    padding-left: 0vw;
+}
+.padding7{
+    padding-top: 10vh;
+}
+.font1{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.font-size1-4{
+    font-size: 5rem;
+}
+
+.margin-2{
+    margin-bottom: -15px;
+}
+
+.border_1{
+    border:#a48352 solid 0.1rem;
+    background-color: #a48352;
+}
+.border_2{
+    border-right: 2px solid #a48352;
+}
+.td-bottom{
+    vertical-align: bottom;
+}
+.bold{
+    font-weight: bold;
+}
+
+.color1{
+    color: black;
+}
+.d-flex1{
+    display: none;
+}
+.d-flex3{
+    display: flex;
+}
+.d-flex2{
+    display: flex;
+}
+.position{
+    position: absolute;
+}
+@media only screen and (max-width: 1415px){
+    h2{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 1.4rem;
+    }
+    .font-size1-4{
+        font-size: 4.1rem;
+    }
+    .padding1-2{
+        padding-top: 16px;
+        padding-left: 7px;
+    }
+}
+@media only screen and (max-width: 1211px){
+    h2{
+        font-size: 2.5rem;
+    }
+    p{
+        font-size: 1.3rem;
+    }
+    .font-size1-4{
+        font-size: 3.7rem;
+    }
+    .padding7{
+        padding-top: 5vh;
+    }
+    .padding5{
+        padding-top: 5px;
+    }
+    .padding3{
+        padding-bottom: 15px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    h2{
+        font-size: 1.9rem;
+    }
+    p{
+        font-size: 1.1rem;
+    }
+    .font-size1-4{
+        font-size: 3rem;
+    }
+    .padding3{
+        padding-bottom: 10px;
+    }
+    
+    .padding7{
+        padding-top: 1vh;
+    }
+}
+@media only screen and (max-width: 826px){
+    h2{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .font-size1-4{
+        font-size: 2.5rem;
+    }
+    .padding1-2{
+        padding-top: 16px;
+        padding-left: 7px;
+    }
+    .padding3{
+        padding-bottom: 7px;
+    }
+    .padding7{
+        padding-top: 0vh;
+    }
+    .padding5{
+        padding-top: 0px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .d-flex1{
+        display: block;
+    }
+    .d-flex2{
+        display: none;
+    }
+    .d-flex3{
+        display: block;
+    }
+    .width-50{
+        width: 100%;
+    }
+    .padding1{
+        padding-top: 5vh;
+        padding-left: 1.5vh;
+        padding-right: 1.5vh;
+        padding-bottom: 5vh;
+    }
+    .padding1-1{
+        padding-bottom: 0px;
+    }
+    h2{
+        font-size: 1.7rem;
+    }
+    p{
+        font-size: 1.1rem;
+    }
+    .font-size1-4{
+        font-size: 3rem;
+    }
+    .padding1-2{
+        padding-top: 16px;
+        padding-left: 7px;
+    }
+    .padding6{
+        padding-left: 0vw;
+    }
+}
